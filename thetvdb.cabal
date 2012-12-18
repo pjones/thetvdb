@@ -1,0 +1,84 @@
+-- http://www.haskell.org/cabal/users-guide/developing-packages.html
+name:          thetvdb
+version:       0.1.0.0
+synopsis:      Haskell API bindings for http://thetvdb.com
+homepage:      http://github.com/pjones/thetvdb
+bug-reports:   http://github.com/pjones/thetvdb/issues
+license:       MIT
+license-file:  LICENSE
+author:        Peter Jones <pjones@pmade.com>
+maintainer:    Peter Jones <pjones@pmade.com>
+copyright:     Copyright: (c) 2012 Peter Jones <pjones@pmade.com>
+category:      Network, API
+stability:     experimental
+tested-with:   GHC == 7.4.2, GHC == 7.6.1
+build-type:    Simple
+cabal-version: >=1.8
+description:   TBD
+
+extra-source-files:
+  CHANGES
+  README.md
+  LICENSE
+
+-- library
+--   exposed-modules: Network.API.TheMovieDB,
+--                    Network.API.TheMovieDB.Util
+--   other-modules:   Network.API.TheMovieDB.Config,
+--                    Network.API.TheMovieDB.Fetch,
+--                    Network.API.TheMovieDB.Search,
+--                    Network.API.TheMovieDB.Generic,
+--                    Network.API.TheMovieDB.HTTP,
+--                    Network.API.TheMovieDB.Types,
+--                    Network.API.TheMovieDB.Types.API,
+--                    Network.API.TheMovieDB.Types.Configuration,
+--                    Network.API.TheMovieDB.Types.Context,
+--                    Network.API.TheMovieDB.Types.Genre,
+--                    Network.API.TheMovieDB.Types.Movie,
+--                    Network.API.TheMovieDB.Types.ReleaseDate
+
+--   build-depends:
+--     base <5.0.0.0,
+--     http-conduit ==1.8.*,
+--     zip-conduit ==0.2.*,
+--     hxt ==9.3.*,
+--     sqlite-simple ==0.2.*,
+--     old-locale ==1.0.*,
+--     time >=1.2.0.0 && <1.5.0.0,
+--     network >=2.3.0.0 && <2.5.0.0,
+--     bytestring >=0.9.0 && <0.10.1.0,
+--     text ==0.11.*,
+--     unix >=2.4.0.0 && <2.7.0.0
+
+-- executable tmdb
+--   main-is: example/Main.hs
+
+--   build-depends:
+--     base,
+--     unix,
+--     old-locale,
+--     time,
+--     text,
+--     aeson,
+--     network,
+--     HTTP,
+--     bytestring
+
+-- test-suite test
+--   type: exitcode-stdio-1.0
+--   main-is: Test/TheMovieDB.hs
+--   build-depends:
+--     base,
+--     unix,
+--     old-locale,
+--     time,
+--     text,
+--     aeson,
+--     network,
+--     HTTP,
+--     bytestring,
+--     HUnit
+
+source-repository head
+  type: git
+  location: git://github.com/pjones/thetvdb.git
