@@ -21,34 +21,35 @@ extra-source-files:
   README.md
   LICENSE
 
--- library
---   exposed-modules: Network.API.TheMovieDB,
---                    Network.API.TheMovieDB.Util
---   other-modules:   Network.API.TheMovieDB.Config,
---                    Network.API.TheMovieDB.Fetch,
---                    Network.API.TheMovieDB.Search,
---                    Network.API.TheMovieDB.Generic,
---                    Network.API.TheMovieDB.HTTP,
---                    Network.API.TheMovieDB.Types,
---                    Network.API.TheMovieDB.Types.API,
---                    Network.API.TheMovieDB.Types.Configuration,
---                    Network.API.TheMovieDB.Types.Context,
---                    Network.API.TheMovieDB.Types.Genre,
---                    Network.API.TheMovieDB.Types.Movie,
---                    Network.API.TheMovieDB.Types.ReleaseDate
+library
+  exposed-modules: Network.API.TheTVDB
+                   Network.API.TheTVDB.Mirrors
+                   Network.API.TheTVDB.Util
+  other-modules:   Network.API.TheTVDB.Types.API
+                   Network.API.TheTVDB.Types.Config
+                   Network.API.TheTVDB.HTTP
 
---   build-depends:
---     base <5.0.0.0,
---     http-conduit ==1.8.*,
---     zip-conduit ==0.2.*,
---     hxt ==9.3.*,
---     sqlite-simple ==0.2.*,
---     old-locale ==1.0.*,
---     time >=1.2.0.0 && <1.5.0.0,
---     network >=2.3.0.0 && <2.5.0.0,
---     bytestring >=0.9.0 && <0.10.1.0,
---     text ==0.11.*,
---     unix-compat ==0.4.*,
+  build-depends: base <5
+               , directory == 1.1.*
+               , network >=2.3.0.0 && <2.5.0.0
+               , http-conduit ==1.8.*
+               , http-types ==0.7.*
+               , zip-conduit ==0.2.*
+               , hxt ==9.3.*
+               , sqlite-simple ==0.2.*
+               , old-locale ==1.0.*
+               , time >=1.2.0.0 && <1.5.0.0
+               , bytestring >=0.9.0 && <0.10.1.0
+               , text ==0.11.*
+               , unix-compat ==0.4.*
+               , random-fu ==0.2.*
+               , random-source ==0.3.*
+               , random-extras ==0.19.*
+               , transformers >= 0.2
+               , monad-control >= 0.3
+               , resourcet >= 0.3 && < 0.5
+               
+  ghc-options: -Wall               
 
 -- executable tmdb
 --   main-is: example/Main.hs
