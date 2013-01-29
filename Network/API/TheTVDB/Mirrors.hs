@@ -9,5 +9,21 @@ the LICENSE file.
 
 -}
 
-module Network.API.TheTVDB.Mirrors () where
 -- http://thetvdb.com/wiki/index.php/API:mirrors.xml
+module Network.API.TheTVDB.Mirrors (defaultMirror, fetchMirrors) where
+import Network.API.TheTVDB.Types.API
+import Network.API.TheTVDB.Types.Config
+import Network.API.TheTVDB.HTTP
+import qualified Data.ByteString.Lazy as L
+
+-- The primary API server and default mirror.
+defaultMirror :: Mirror
+defaultMirror =  Mirror
+  { mirrorURL   = "http://www.thetvdb.com"
+  , mirrorTypes = enumFrom minBound
+  }
+
+fetchMirrors :: Config -> IO (APIError L.ByteString)
+fetchMirrors cfg = xml
+  where xml = get url $ httpManager cfg
+        url = mirrorURL defaultMirror ++ "/api/" ++ apiKey cfg ++ "/mirrors.xml"

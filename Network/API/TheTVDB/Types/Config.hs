@@ -9,9 +9,7 @@ the LICENSE file.
 
 -}
 module Network.API.TheTVDB.Types.Config (Key, Config(..), defaultConfig) where
-import Network.API.TheTVDB.Types.API (Mirror, Key)
-import Control.Applicative
-import Control.Monad (liftM)
+import Network.API.TheTVDB.Types.API (Key)
 import Network.HTTP.Conduit (Manager)
 import System.Directory (getAppUserDataDirectory)
 
@@ -20,9 +18,8 @@ data Config = Config
   { apiKey      :: Key           -- ^ TheTVDB API key.
   , cacheDir    :: FilePath      -- ^ Directory to store cache files in.
   , httpManager :: Maybe Manager -- ^ Optional 'Manager' for HTTP connections.
-  , apiMirrors  :: [Mirror]      -- ^ List of API mirror servers.
   }
-  
+
 -- Default directory used to store cache files.
 defaultDir :: IO FilePath
 defaultDir = getAppUserDataDirectory "thetvdb"
@@ -40,5 +37,4 @@ defaultDir = getAppUserDataDirectory "thetvdb"
 -- manager across all of your API calls.
 defaultConfig :: Key -> IO Config
 defaultConfig key = do dir <- defaultDir
-                       return $ Config key dir Nothing []
-
+                       return $ Config key dir Nothing

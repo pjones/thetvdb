@@ -16,6 +16,7 @@ module Network.API.TheTVDB.Types.API
        , Error(..)
        , Query(..)
        , API(..)
+       , APIError
        ) where
 
 import qualified Data.ByteString.Lazy as L
@@ -32,6 +33,10 @@ data Error
   = NetworkError String -- ^ Network/HTTP error.
   | ParseError   String -- ^ Error parsing the API response.
   deriving (Eq, Show)
+
+
+-- FIXME:
+type APIError = Either Error
 
 -- Internal list of possible mirror types.
 data MirrorType = XMLMirror | BannerMirror | ZipMirror
@@ -53,8 +58,8 @@ class Query q where
 -- performing remote API requests, 'fetch' and 'download'.
 class API a where
   -- | Perform an API query and return either an error or the body.
-  fetch :: (Query q) => a -> q -> IO (Either Error L.ByteString)
+  fetch :: (Query q) => a -> q -> IO (APIError L.ByteString)
 
   -- | Perform an API query and write the resulting body to a
   -- temporary file.  Returns either an error or the name of the file.
-  download :: (Query q) => a -> q -> IO (Either Error FilePath)
+  download :: (Query q) => a -> q -> IO (APIError FilePath)

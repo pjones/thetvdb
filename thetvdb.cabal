@@ -8,7 +8,7 @@ license:       MIT
 license-file:  LICENSE
 author:        Peter Jones <pjones@pmade.com>
 maintainer:    Peter Jones <pjones@pmade.com>
-copyright:     Copyright: (c) 2012 Peter Jones <pjones@pmade.com>
+copyright:     Copyright: (c) 2012-2013 Peter Jones <pjones@pmade.com>
 category:      Network, API
 stability:     experimental
 tested-with:   GHC == 7.4.2, GHC == 7.6.1
@@ -27,6 +27,7 @@ library
                    Network.API.TheTVDB.Util
   other-modules:   Network.API.TheTVDB.Types.API
                    Network.API.TheTVDB.Types.Config
+                   Network.API.TheTVDB.Types.Context
                    Network.API.TheTVDB.HTTP
 
   build-depends: base <5
