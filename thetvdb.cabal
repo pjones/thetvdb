@@ -23,21 +23,19 @@ extra-source-files:
 
 library
   exposed-modules: Network.API.TheTVDB
-                   Network.API.TheTVDB.Mirrors
                    Network.API.TheTVDB.Util
-  other-modules:   Network.API.TheTVDB.Types.API
-                   Network.API.TheTVDB.Types.Config
-                   Network.API.TheTVDB.Types.Context
+  other-modules:   Network.API.TheTVDB.Search
                    Network.API.TheTVDB.HTTP
-
+                   Network.API.TheTVDB.Types.API
+                   Network.API.TheTVDB.Types.Context
+                   
   build-depends: base <5
+               , conduit == 0.5.*
                , directory == 1.1.*
                , network >=2.3.0.0 && <2.5.0.0
                , http-conduit ==1.8.*
                , http-types ==0.7.*
                , zip-conduit ==0.2.*
-               , hxt ==9.3.*
-               , sqlite-simple ==0.2.*
                , old-locale ==1.0.*
                , time >=1.2.0.0 && <1.5.0.0
                , bytestring >=0.9.0 && <0.10.1.0
@@ -49,6 +47,8 @@ library
                , transformers >= 0.2
                , monad-control >= 0.3
                , resourcet >= 0.3 && < 0.5
+               , xml-conduit ==1.0.*
+               , xml-types == 0.3.*
                
   ghc-options: -Wall               
 

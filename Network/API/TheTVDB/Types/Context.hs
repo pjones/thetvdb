@@ -8,49 +8,54 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
-module Network.API.TheTVDB.Types.Context () where
+module Network.API.TheTVDB.Types.Context (Context(..), defaultContext) where
 import Network.API.TheTVDB.HTTP
 import Network.API.TheTVDB.Types.API
-import Network.API.TheTVDB.Mirrors
 import Network.HTTP.Types (renderQuery, simpleQueryToQuery)
-import Data.Random.Extras (choice)
-import Data.Random.RVar (runRVar)
-import Data.Random.Source.DevRandom (DevRandom(..))
-import Network.API.TheTVDB.Types.Config (Config(..))
-import Control.Monad (liftM)
 import qualified Data.ByteString.Char8 as B
-import qualified Data.ByteString.Lazy as L
+import Network.HTTP.Conduit (Manager)
+import System.Directory (getAppUserDataDirectory)
 
--- Information used across API transactions.
+-- | FIXME:
 data Context = Context
-  { config      :: Config     -- ^ API configuration information.
-  , apiMirrors  :: [Mirror]   -- ^ List of API mirror servers.
+  { apiKey      :: Key           -- ^ TheTVDB API key.
+  , apiLang     :: String        -- ^ The metadata language to request.
+  , cacheDir    :: FilePath      -- ^ Directory to store cache files in.
+  , httpManager :: Maybe Manager -- ^ Optional 'Manager' for HTTP connections.
   }
 
 instance API Context where
-  fetch    = fetchWithContext
-  download = downloadWithContext
+  fetch = fetchC
 
--- | Create a Context which is used in all of the API calls.
-makeContext :: Config -> IO (APIError Context)
-makeContext cfg = undefined
+-- | Create a default 'Context' with the API key set to the given key,
+-- the metadata language to set English and the cache directory set to
+-- the default directory.
+--
+-- If you are going to be making several API calls or you don't want
+-- to store the cache files/database in the default directory you
+-- should create a 'Context' manually.
+--
+-- Furthermore, this function sets the 'http-conduit' manager to
+-- Nothing which forces a new manager to be created with each API
+-- call.  For better performance you probably want to share a single
+-- manager across all of your API calls.
+defaultContext :: Key -> IO Context
+defaultContext key = do dir <- defaultDir
+                        return $ Context key "en" dir Nothing
 
--- Returns a list of valid mirrors for the given query.
-mirrorsForQuery :: (Query a) => Context -> a -> [Mirror]
-mirrorsForQuery context query = filter validMirror (defaultMirror:mirrors)
-  where mirrors       = apiMirrors context
-        validMirror m = queryType query `elem` mirrorTypes m
+-- Base URL for the service.
+apiBaseURL :: URL
+apiBaseURL = "http://www.thetvdb.com"
 
--- Make a URL for the given request using an appropriate mirror.
-makeURL :: (Query a) => Context -> a -> IO String
-makeURL context query = liftM url mirror
-  where mirror = runRVar (choice $ mirrorsForQuery context query) DevURandom
-        url m  = mirrorURL m ++ path query (apiKey $ config context) ++ qStr
-        qStr   = B.unpack $ renderQuery True (simpleQueryToQuery $ params query)
+-- Default directory used to store cache files.
+defaultDir :: IO FilePath
+defaultDir = getAppUserDataDirectory "thetvdb"
 
-fetchWithContext :: (Query a) => Context -> a -> IO (APIError L.ByteString)
-fetchWithContext context query = do url <- makeURL context query
-                                    get url $ httpManager (config context)
+makeURL :: Context -> Path -> Query -> URL
+--makeURL c path params = apiBaseURL ++ path q (apiKey c) (apiLang c) ++ qStr
+makeURL c path params = apiBaseURL ++ path ++ qStr
+  where qStr = B.unpack $ renderQuery True $ simpleQueryToQuery params
 
-downloadWithContext :: (Query a) => Context -> a -> IO (Either Error FilePath)
-downloadWithContext context query = undefined
+fetchC :: Context -> Path -> Query -> Disposition r -> IO (Result r)
+fetchC c path params disposition =
+  get (makeURL c path params) (httpManager c) disposition

@@ -8,4 +8,16 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
-module Network.API.TheTVDB where
+module Network.API.TheTVDB
+       ( Key
+       , Context(..)
+       , defaultContext
+       , Series(..)
+       , searchErr
+       , search
+       ) where
+
+import Network.API.TheTVDB.Types.Context
+import Network.API.TheTVDB.Types.API
+import Network.API.TheTVDB.Types.Series
+import Network.API.TheTVDB.Search

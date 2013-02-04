@@ -1,4 +1,4 @@
-{-# LANGUAGE Arrows, NoMonomorphismRestriction #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 {-
 
@@ -10,38 +10,34 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
-module Network.API.TheTVDB.Search where
+module Network.API.TheTVDB.Search (SearchTerm, search, searchErr) where
+import Network.API.TheTVDB.Types.API
 import Network.API.TheTVDB.Types.Series (Series(..))
-import Network.API.TheTVDB.Types.Config (Config())
-import Network.API.TheTVDB.Types.API (Error(..))
-import Data.Text (pack)
+import Text.XML.Cursor (Cursor, fromDocument, element, content, ($/), (&//))
+import qualified Data.ByteString.Char8 as C
+import qualified Data.Text as T
+import qualified Text.XML as X
 
--- Let's be honest, we need a better XML parser library for Haskell,
--- something like Aeson would be great.
-import Text.XML.HXT.Core
+type SearchTerm = String
 
--- TODO: Move this into an XML parsing file.
--- parseSeriesXML :: ArrowXml cat =>
---                   cat (Data.Tree.NTree.TypeDefs.NTree XNode) Series
-parseSeriesXML = atTag "Series" >>>
-  proc x -> do
-    sID   <- textAt "seriesid"   -< x
-    sIMDB <- textAt "IMDB_ID"    -< x
-    sName <- textAt "SeriesName" -< x
-    sOver <- textAt "Overview"   -< x
-    returnA -< Series
-      { seriesID       = read sID
-      , seriesIMDB     = pack sIMDB
-      , seriesName     = pack sName
-      , seriesOverview = pack sOver
-      }
-  where atTag  tag = deep (isElem >>> hasName tag)
-        textAt tag = atTag tag >>> getChildren >>> getText
+search :: (API api) => api -> SearchTerm -> IO [Series]
+search api term = do r <- searchErr api term
+                     return $ either (const []) id r
 
-type Query = String
+searchErr :: (API api) => api -> SearchTerm -> IO (Result [Series])
+searchErr api term = fetch api path params parse
+  where path   = "/api/GetSeries.php"
+        params = [(C.pack "seriesname", C.pack $ term)]
 
-search :: Config -> Query -> IO [Series]
-search c q = undefined
+parse :: Disposition [Series]
+parse = do doc <- X.sinkDoc X.def
+           return $ map parseSeries (fromDocument doc $/ element "Series")
 
-searchErr :: Config -> Query -> IO (Either Error [Series])
-searchErr c q = undefined
+parseSeries :: Cursor -> Series
+parseSeries c = Series
+  { seriesID       = read $ T.unpack (extract "id")
+  , seriesIMDB     = extract "IMDB_ID"
+  , seriesName     = extract "SeriesName"
+  , seriesOverview = extract "Overview"
+  }
+  where extract n = T.concat $ c $/ element n &// content

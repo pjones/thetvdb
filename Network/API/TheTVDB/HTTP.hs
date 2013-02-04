@@ -1,5 +1,3 @@
-{-# LANGUAGE FlexibleContexts #-}
-
 {-
 
 This file is part of the Haskell package thetvdb. It is subject to the
@@ -10,32 +8,28 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
-module Network.API.TheTVDB.HTTP (URL, get) where
+module Network.API.TheTVDB.HTTP (get) where
+import Control.Monad (liftM)
+import Control.Monad.Trans.Resource (ResourceT, runResourceT)
 import Network.API.TheTVDB.Types.API
-import qualified Data.ByteString.Lazy as L
-import qualified Network.HTTP.Conduit as HTTP
-import qualified Network.HTTP.Types.Status as Status
-import Control.Monad.IO.Class (MonadIO)
-import Control.Monad.Trans.Control (MonadBaseControl)
-import Control.Monad.Trans.Resource (MonadThrow, MonadUnsafeIO,
-                                     ResourceT, runResourceT)
-type URL = String
+import qualified Data.Conduit as C
+import qualified Network.HTTP.Conduit as H
+import qualified Network.HTTP.Types.Status as HS
 
-runWithManager :: ( MonadIO m
-                  , MonadBaseControl IO m
-                  , MonadThrow m
-                  , MonadUnsafeIO m
-                  ) => Maybe HTTP.Manager -> (HTTP.Manager -> ResourceT m a) -> m a
-runWithManager manager f =
-  case manager of
-    Just m  -> runResourceT $ f m
-    Nothing -> HTTP.withManager f
+-- Perform an HTTP GET and send the resulting body to the sink given
+-- in the 'Disposition' argument.
+get :: URL -> Maybe H.Manager -> Disposition r -> IO (Result r)
+get url manager pipe =
+  do request <- H.parseUrl url
+     runWithManager manager $ \manager' -> do
+       response <- H.http request manager'
+       if HS.statusIsSuccessful $ H.responseStatus response
+         then liftM Right (H.responseBody response C.$$+- pipe)
+         else return . Left $ NetworkError errorMsg
+  where errorMsg = "the server did not respond with the requested information"
 
-get :: URL -> Maybe HTTP.Manager -> IO (APIError L.ByteString)
-get url manager =
-  do request <- HTTP.parseUrl url
-     runWithManager manager $ \m -> do
-       response <- HTTP.httpLbs request m
-       return $ if Status.statusIsSuccessful $ HTTP.responseStatus response
-                  then Right $ HTTP.responseBody response
-                  else Left  $ NetworkError "API HTTP error"
+-- Internal function to ensure that 'runResourceT' is called.
+runWithManager :: Maybe H.Manager -> (H.Manager -> ResourceT IO a) -> IO a
+runWithManager manager f = case manager of
+  Just m  -> runResourceT $ f m
+  Nothing -> H.withManager f

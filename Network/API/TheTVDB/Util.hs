@@ -9,7 +9,7 @@ the LICENSE file.
 
 -}
 module Network.API.TheTVDB.Util (loadKeyMaybe, loadKey) where
-import Network.API.TheTVDB.Types.Config (Key)
+import Network.API.TheTVDB.Types.API (Key)
 
 -- | Load a key from the environment or file system.
 loadKeyMaybe :: IO (Maybe Key)
