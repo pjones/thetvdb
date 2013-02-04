@@ -32,11 +32,11 @@ instance API Context where
 -- the default directory.
 --
 -- If you are going to be making several API calls or you don't want
--- to store the cache files/database in the default directory you
--- should create a 'Context' manually.
+-- to store the cache files in the default directory you should create
+-- a 'Context' manually (or update the one from this function).
 --
 -- Furthermore, this function sets the 'http-conduit' manager to
--- Nothing which forces a new manager to be created with each API
+-- 'Nothing' which forces a new manager to be created with each API
 -- call.  For better performance you probably want to share a single
 -- manager across all of your API calls.
 defaultContext :: Key -> IO Context
@@ -47,15 +47,19 @@ defaultContext key = do dir <- defaultDir
 apiBaseURL :: URL
 apiBaseURL = "http://www.thetvdb.com"
 
+-- Base URL for series posters
+posterBaseURL :: URL
+posterBaseURL = apiBaseURL ++ "/banners/"
+
 -- Default directory used to store cache files.
 defaultDir :: IO FilePath
 defaultDir = getAppUserDataDirectory "thetvdb"
 
-makeURL :: Context -> Path -> Query -> URL
---makeURL c path params = apiBaseURL ++ path q (apiKey c) (apiLang c) ++ qStr
-makeURL c path params = apiBaseURL ++ path ++ qStr
-  where qStr = B.unpack $ renderQuery True $ simpleQueryToQuery params
+-- Helper function to create a URL from a Query.
+makeURL :: Query query => Context -> query -> URL
+makeURL c q = apiBaseURL ++ path q (apiKey c) (apiLang c) ++ qStr
+  where qStr = B.unpack $ renderQuery True $ simpleQueryToQuery (params q)
 
-fetchC :: Context -> Path -> Query -> Disposition r -> IO (Result r)
-fetchC c path params disposition =
-  get (makeURL c path params) (httpManager c) disposition
+-- Use the HTTP module to make a remote HTTP GET call for the API.
+fetchC :: Query query => Context -> query -> Disposition r -> IO (Result r)
+fetchC c q disposition = get (makeURL c q) (httpManager c) disposition

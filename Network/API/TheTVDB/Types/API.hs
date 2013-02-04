@@ -11,14 +11,12 @@ the LICENSE file.
 module Network.API.TheTVDB.Types.API
        ( UniqueID
        , Key
-       , MirrorType(..)
-       , Mirror(..)
        , Error(..)
        , API(..)
        , Result
        , URL
        , Path
-       , Query
+       , Query(..)
        , Disposition
        ) where
 
@@ -48,33 +46,16 @@ data Error
 type Result = Either Error
 type URL = String
 type Path = String
-type Query = H.SimpleQuery
-
--- Sink i m r = Pipe i i Void () m r
---              Pipe l Event o u m a
---              Pipe l ByteString Event r m r
---         data Pipe l i o u m r
--- type Disposition o r = C.Pipe S.ByteString S.ByteString o r (ResourceT IO) r
 type Disposition r = C.Sink S.ByteString (ResourceT IO) r
-
--- Internal list of possible mirror types.
-data MirrorType = XMLMirror | BannerMirror | ZipMirror
-                deriving (Eq, Show, Enum, Bounded)
-
-data Mirror = Mirror
-  { mirrorURL   :: String
-  , mirrorTypes :: [MirrorType]
-  } deriving (Eq, Show)
 
 -- | A member of the Query typeclass must define functions for
 -- generating the path component of a URL and the query parameters.
--- class Query q where
---   path        :: q -> Key -> Language -> Path
---   params      :: q -> H.SimpleQuery
---   disposition :: q -> Disposition r
+class Query q where
+  path        :: q -> Key -> Language -> Path
+  params      :: q -> H.SimpleQuery
 
--- | A member of the API typeclass must define two functions for
--- performing remote API requests, 'fetch' and 'download'.
+-- | A member of the API typeclass must define functions for
+-- performing remote API requests.
 class API api where
   -- | Perform an API query and return either an error or the body.
-  fetch :: api -> Path -> H.SimpleQuery -> Disposition r -> IO (Result r)
+  fetch :: Query query => api -> query -> Disposition r -> IO (Result r)

@@ -20,14 +20,18 @@ import qualified Text.XML as X
 
 type SearchTerm = String
 
+newtype Search = Search {searchTerm :: SearchTerm}
+
+instance Query Search where
+  path _ _ _ = "/api/GetSeries.php"
+  params s   = [(C.pack "seriesname", C.pack $ searchTerm s)]
+
 search :: (API api) => api -> SearchTerm -> IO [Series]
 search api term = do r <- searchErr api term
                      return $ either (const []) id r
 
 searchErr :: (API api) => api -> SearchTerm -> IO (Result [Series])
-searchErr api term = fetch api path params parse
-  where path   = "/api/GetSeries.php"
-        params = [(C.pack "seriesname", C.pack $ term)]
+searchErr api term = fetch api (Search term) parse
 
 parse :: Disposition [Series]
 parse = do doc <- X.sinkDoc X.def
