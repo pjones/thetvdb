@@ -38,9 +38,14 @@ type Language = String
 data Error
   = NetworkError String -- ^ Network/HTTP error.
   | ParseError   String -- ^ Error parsing the API response.
-  deriving (Eq, Show)
+  deriving (Eq)
 
--- errroMsg = "An error occurred while communicating with TheTVDB.com"
+instance Show Error where
+  show (NetworkError e) = msg ++ e
+    where msg = "An error occurred while communicating with TheTVDB.com: "
+
+  show (ParseError e) = msg ++ e
+    where msg = "TheTVDB.com responded with an invalid document: "
 
 -- FIXME:
 type Result = Either Error
