@@ -22,7 +22,7 @@
   <addedBy></addedBy>
   <banner>graphical/75760-g27.jpg</banner>
   <fanart>fanart/original/75760-50.jpg</fanart>
-  <lastupdated>1360013443</lastupdated>
+  <lastupdated>1360096417</lastupdated>
   <poster>posters/75760-12.jpg</poster>
   <zap2it_id>EP00753796</zap2it_id>
 </Series>
@@ -731,7 +731,7 @@
 </Overview>
   <ProductionCode>1ALH13</ProductionCode>
   <Rating>7.6</Rating>
-  <RatingCount>146</RatingCount>
+  <RatingCount>147</RatingCount>
   <SeasonNumber>1</SeasonNumber>
   <Writer>Brenda Hsueh</Writer>
   <absolute_number>14</absolute_number>
@@ -760,7 +760,7 @@
 </Overview>
   <ProductionCode>1ALH14</ProductionCode>
   <Rating>7.8</Rating>
-  <RatingCount>141</RatingCount>
+  <RatingCount>142</RatingCount>
   <SeasonNumber>1</SeasonNumber>
   <Writer>Chris Harris</Writer>
   <absolute_number>15</absolute_number>
@@ -788,7 +788,7 @@
   <Overview>Things are going great with Ted and Victoria's relationship, but when Victoria is offered her dream job, the couple have to make serious relationship decisions.  Meanwhile Marshall and Lily set out to purchase their wedding outfits and find out that none can afford what they bought.</Overview>
   <ProductionCode>1ALH15</ProductionCode>
   <Rating>7.5</Rating>
-  <RatingCount>140</RatingCount>
+  <RatingCount>141</RatingCount>
   <SeasonNumber>1</SeasonNumber>
   <Writer>Maria Farrari</Writer>
   <absolute_number>16</absolute_number>
@@ -2383,7 +2383,7 @@
   <Overview>A birthday party for one of Lily's co-workers leads to Robin connecting with a group of single partiers known as the &quot;Woo Girls&quot;. Ted presents a plan for Goliath National Bank's new HQ.</Overview>
   <ProductionCode>4ALH08</ProductionCode>
   <Rating>7.7</Rating>
-  <RatingCount>153</RatingCount>
+  <RatingCount>154</RatingCount>
   <SeasonNumber>4</SeasonNumber>
   <Writer>Carter Bays|Craig Thomas</Writer>
   <absolute_number>72</absolute_number>
@@ -2411,7 +2411,7 @@
   <Overview>The gang learns a new way to get their dates to sleep with them after Ted walks in on Robin's date sitting naked on the couch.</Overview>
   <ProductionCode>4ALH09</ProductionCode>
   <Rating>7.9</Rating>
-  <RatingCount>158</RatingCount>
+  <RatingCount>159</RatingCount>
   <SeasonNumber>4</SeasonNumber>
   <Writer>Joe Kelly</Writer>
   <absolute_number>73</absolute_number>
@@ -4072,3 +4072,1265 @@
   <seasonid>287351</seasonid>
   <seriesid>75760</seriesid>
 </Episode>
+<Episode>
+  <id>3950721</id>
+  <Combined_episodenumber>21.0</Combined_episodenumber>
+  <Combined_season>6</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>21.0</DVD_episodenumber>
+  <DVD_season>6</DVD_season>
+  <Director>Chris Harris</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Hopeless</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2011-04-18</FirstAired>
+  <GuestStars>|John Lithgow|Riley Thomas Stewart|Will Shadley|Cristina Rosas|Jill Basey|Kelly Curran|Michael Trucco|</GuestStars>
+  <IMDB_ID>tt1795963</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Barney tries to bond with his father, he asks the gang to help make his life seem more exciting by lying about their own lives. Meanwhile, Robin runs into a guy she has a crush on.</Overview>
+  <ProductionCode>6ALH21</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>198</RatingCount>
+  <SeasonNumber>6</SeasonNumber>
+  <Writer>Pamela Fryman</Writer>
+  <absolute_number>133</absolute_number>
+  <filename>episodes/75760/3950721.jpg</filename>
+  <lastupdated>1353767489</lastupdated>
+  <seasonid>287351</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>3696941</id>
+  <Combined_episodenumber>22.0</Combined_episodenumber>
+  <Combined_season>6</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>22.0</DVD_episodenumber>
+  <DVD_season>6</DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Perfect Cocktail</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2011-05-02</FirstAired>
+  <GuestStars>|Bob Odenkirk|Jennifer Morrison|Joe Nieves|Chase Stockman|Elizabeth J. Carlisle|Jeff Braine|Katierose Donohue|Thomas Fowler|</GuestStars>
+  <IMDB_ID>tt1795964</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Marshall and Barney argue over the destruction of the Arcadian Hotel, Robin and Lily try to mix the right combination of cocktails that will force them to make up. Meanwhile, Ted plans a romantic weekend away with Zoey.</Overview>
+  <ProductionCode>6ALH22</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>198</RatingCount>
+  <SeasonNumber>6</SeasonNumber>
+  <Writer>Joe Kelly</Writer>
+  <absolute_number>134</absolute_number>
+  <filename>episodes/75760/3696941.jpg</filename>
+  <lastupdated>1359191280</lastupdated>
+  <seasonid>287351</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>3950731</id>
+  <Combined_episodenumber>23</Combined_episodenumber>
+  <Combined_season>6</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Landmarks</EpisodeName>
+  <EpisodeNumber>23</EpisodeNumber>
+  <FirstAired>2011-05-09</FirstAired>
+  <GuestStars>|Bob Odenkirk|Jennifer Morrison|Cristine Rose|Eijiro Ozaki|Julie Meyer|Peter MacKenzie|</GuestStars>
+  <IMDB_ID>tt1795965</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Ted is faced with an important decision that might affect his future with Zoey, the gang expresses their true feelings about her.</Overview>
+  <ProductionCode>6ALH23</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>189</RatingCount>
+  <SeasonNumber>6</SeasonNumber>
+  <Writer>|Carter Bays|Craig Thomas|</Writer>
+  <absolute_number>135</absolute_number>
+  <filename>episodes/75760/3950731.jpg</filename>
+  <lastupdated>1355567115</lastupdated>
+  <seasonid>287351</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>3950741</id>
+  <Combined_episodenumber>24.0</Combined_episodenumber>
+  <Combined_season>6</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>24.0</DVD_episodenumber>
+  <DVD_season>6</DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Challenge Accepted</EpisodeName>
+  <EpisodeNumber>24</EpisodeNumber>
+  <FirstAired>2011-05-16</FirstAired>
+  <GuestStars>|Bob Odenkirk|Jennifer Morrison|Marshall Manesh|Nazanin Boniadi|Bette Rae|Breanna Yde|Chi McBride|Dave Foley|Kyle S. More|</GuestStars>
+  <IMDB_ID>tt1795966</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Robin and Barney bond when they intervene in Ted's relationship, and Marshall and Lily watch a ticking clock as he fears that he soon will be the victim of food poisoning.</Overview>
+  <ProductionCode>6ALH24</ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>201</RatingCount>
+  <SeasonNumber>6</SeasonNumber>
+  <Writer>|Carter Bays|Craig Thomas|</Writer>
+  <absolute_number>136</absolute_number>
+  <filename>episodes/75760/3950741.jpg</filename>
+  <lastupdated>1356645455</lastupdated>
+  <seasonid>287351</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4120781</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Best Man</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2011-09-19</FirstAired>
+  <GuestStars>|Stefanie Black|Shelli Boone|Anthony Wayne Skeen|Luka Yovetich|Adam Tsekhman|Lauren Halperin|Gerrit Goossen|Steve Tom|Vince Cefalu|</GuestStars>
+  <IMDB_ID>tt1982341</IMDB_ID>
+  <Language>en</Language>
+  <Overview>While Barney prepares for his wedding to a mystery bride, he and Ted reminisce about Punchy’s wedding, including when Marshall and Lily announced they are having a baby. Meanwhile, Robin considers telling Barney she has feelings for him.</Overview>
+  <ProductionCode>7ALH01</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>184</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>|Carter Bays|Craig Thomas|</Writer>
+  <absolute_number>137</absolute_number>
+  <filename>episodes/75760/4120781.jpg</filename>
+  <lastupdated>1353843467</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4123348</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Naked Truth</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2011-09-19</FirstAired>
+  <GuestStars>|Martin Short|Jimmi Simpson|Kallee Brookes|Nicole Hayden|Kristen Henry King|</GuestStars>
+  <IMDB_ID>tt2039807</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marshall gets a great job offer that he fears may be scuttled by a social media background check. Ted needs a date for the Architects Ball.</Overview>
+  <ProductionCode>7ALH02</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>181</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Stephen Lloyd</Writer>
+  <absolute_number>138</absolute_number>
+  <filename>episodes/75760/4123348.jpg</filename>
+  <lastupdated>1353843488</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4154006</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Ducky Tie</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2011-09-26</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2049132</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney faces having to wear Marshall's ducky tie if he loses a bet with him. Meanwhile, Ted hopes to apologize to an ex for cheating on her.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>194</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>|Carter Bays|Craig Thomas|</Writer>
+  <absolute_number>139</absolute_number>
+  <filename>episodes/75760/4154006.jpg</filename>
+  <lastupdated>1353843517</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4154007</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Stinson Missile Crisis</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2011-10-03</FirstAired>
+  <GuestStars>|Kal Penn|Ellen D. Williams|Vicki Lewis|Alexis Denisof|Erica Hanrahan|Tenille Houston|Hollie Winnard|Jeff Probst|Michelle Diaz|Katherine Von Till|Tami Sagher|Tarah Paige|</GuestStars>
+  <IMDB_ID>tt2049980</IMDB_ID>
+  <Language>en</Language>
+  <Overview>After Robin assaults a girl who is out to ruin Barney's relationship, she is forced to begin court-mandated therapy sessions. Meanwhile, Ted gets too involved in Lily's pregnancy.</Overview>
+  <ProductionCode>7ALH04</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>189</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Kourtney Kang</Writer>
+  <absolute_number>140</absolute_number>
+  <filename>episodes/75760/4154007.jpg</filename>
+  <lastupdated>1353843543</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4155042</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Field Trip</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2011-10-10</FirstAired>
+  <GuestStars>|Jamie Denbo|Jay Acovone|Jamie Lea Willett|Nick Pasqual|Elaine Bartolone|</GuestStars>
+  <IMDB_ID>tt2071800</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marshall decides to step in after seeing his boss's approach to settling with a million dollar company. Ted's class trip isn't what he envisioned.</Overview>
+  <ProductionCode>7ALH05</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>187</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Jamie Rhonheimer</Writer>
+  <absolute_number>141</absolute_number>
+  <filename>episodes/75760/4155042.jpg</filename>
+  <lastupdated>1353843580</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4179645</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Mystery vs. History</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2011-10-17</FirstAired>
+  <GuestStars>|Kal Penn|Ray Wise|Amber Stevens|Eleanor Seigler|Rachel Sterling|Drew Droege|</GuestStars>
+  <IMDB_ID>tt2072524</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Ted goes on a date without researching the girl on the Internet, the gang interferes, showing Kevin that they are too into each other's business. Meanwhile, Lily and Marshall come to terms with finding out the sex of their baby.</Overview>
+  <ProductionCode>7ALH06</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>182</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Chuck Tatham</Writer>
+  <absolute_number>142</absolute_number>
+  <filename>episodes/75760/4179645.jpg</filename>
+  <lastupdated>1353843632</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4186890</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Noretta</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2011-10-24</FirstAired>
+  <GuestStars>|Wayne Brady|Chris Elliot|Frances Conroy|Bill Fagerbakke|Christine Rose|Riley Thomas Stewart|Sathya Jesudasson|Christiann Castellanos|Vicki Lewis|Amber Stevens|</GuestStars>
+  <IMDB_ID>tt2072525</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The gang begins to realize their romantic partner reminds them of one of their parents. Meanwhile, Barney and Nora's planned romantic evening is ruined by a string of bad events.</Overview>
+  <ProductionCode>7ALH07</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>194</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Matt Kuhn</Writer>
+  <absolute_number>143</absolute_number>
+  <filename>episodes/75760/4186890.jpg</filename>
+  <lastupdated>1353843673</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4186891</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Slutty Pumpkin Returns</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2011-10-31</FirstAired>
+  <GuestStars>|Katie Holmes|Christine Pickles|Jack Walsh|Anthony Van Epperson|Misty Monroe|Marlowe Peyton|Dylan Shea|</GuestStars>
+  <IMDB_ID>tt2072526</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ted finally meets his mystery girl in the Slutty Pumpkin costume. Meanwhile, Barney learns he is part Canadian, and Lily has pregnancy brain.
+</Overview>
+  <ProductionCode>7ALH08</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>183</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Tami Sagher</Writer>
+  <absolute_number>144</absolute_number>
+  <filename>episodes/75760/4186891.jpg</filename>
+  <lastupdated>1353843706</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4186892</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Michael Shea</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Disaster Averted</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2011-11-07</FirstAired>
+  <GuestStars>|Kal Penn|James Anthony McCarthy|Dusan Brown|Bruce Gray|Teresa Castillo|</GuestStars>
+  <IMDB_ID>tt2094413</IMDB_ID>
+  <Language>en</Language>
+  <Overview>While the gang reminisces about Hurricane Irene, Barney tries to cut a deal with Marshall and Lily to get out of wearing the Ducky Tie.</Overview>
+  <ProductionCode>7ALH09</ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>170</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Robia Rashid</Writer>
+  <absolute_number>145</absolute_number>
+  <filename>episodes/75760/4186892.jpg</filename>
+  <lastupdated>1353843725</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4194100</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Tick Tick Tick...</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2011-11-14</FirstAired>
+  <GuestStars>|Kal Penn|Nazanin Boniadi|Alexis Denisof|Jerry Minor|Katie Gill|Jacob Witkin|Tahmus Rounds|David Neher|Robin Krieger|Dean Chekvala|</GuestStars>
+  <IMDB_ID>tt2102769</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney and Robin find themselves in an uncomfortable situation when they hide a secret from their significant others. Meanwhile, Marshall, Lily and Ted attend a concert.</Overview>
+  <ProductionCode>7ALH10</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>188</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Chris Harris</Writer>
+  <absolute_number>146</absolute_number>
+  <filename>episodes/75760/4194100.jpg</filename>
+  <lastupdated>1353843741</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4195866</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Rebound Girl</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2011-11-21</FirstAired>
+  <GuestStars>Wayne Brady</GuestStars>
+  <IMDB_ID>tt2108075</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ted and Barney discuss making a life-changing decision together, and Robin tries to discourage Marshall and Lily from moving to Long Island. </Overview>
+  <ProductionCode>7ALH11</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>189</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>|Carter Bays|Craig Thomas|</Writer>
+  <absolute_number>147</absolute_number>
+  <filename>episodes/75760/4195866.jpg</filename>
+  <lastupdated>1353843768</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4195867</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Symphony of Illumination</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2011-12-05</FirstAired>
+  <GuestStars>|Vicki Lewis|Chase Ellison|Todd Grinnell|Danielle Weeks|Andra Nechita|Noah Schnacky|</GuestStars>
+  <IMDB_ID>tt2121966</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Robin receives bad news and decides to hide it from the gang. Marshall hangs Christmas decorations in his house in the suburbs with some help from his neighbor.</Overview>
+  <ProductionCode>7ALH12</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>173</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Joe Kelly</Writer>
+  <absolute_number>148</absolute_number>
+  <filename>episodes/75760/4195867.jpg</filename>
+  <lastupdated>1353843817</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4218702</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Tailgate</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2012-01-02</FirstAired>
+  <GuestStars>Bill Faggerbakke|Chris Elliot|Will Sasso|Kal Penn|Alexis Denisof</GuestStars>
+  <IMDB_ID>tt2157459</IMDB_ID>
+  <Language>en</Language>
+  <Overview>After celebrating New Year's Eve, Marshall visits his father's graveside to carry on their tradition of tailgating. Meanwhile, Barney and Ted open a bar called &quot;Puzzles,&quot; and Robin is forced to fill in for an inebriated news anchor.</Overview>
+  <ProductionCode>7ALH13</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>160</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>149</absolute_number>
+  <filename>episodes/75760/4218702.jpg</filename>
+  <lastupdated>1353843880</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4232096</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>46 Minutes</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2012-01-16</FirstAired>
+  <GuestStars>Chris Elliot|Dimitri Diatchenko|Kal Penn|Milynn Sarley|Ptolemy Slocum|Matt Lasky</GuestStars>
+  <IMDB_ID>tt2157457</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Lily and Marshall officially move to the suburbs and realize that Lily's bossy father refuses to move out of their house. Meanwhile, the gang adjusts to them moving by going to a strip club.</Overview>
+  <ProductionCode>7ALH14</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>161</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Dan Gregor|Doug Mand</Writer>
+  <absolute_number>150</absolute_number>
+  <filename>episodes/75760/4232096.jpg</filename>
+  <lastupdated>1353843901</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4254101</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Burning Beekeeper</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2012-02-06</FirstAired>
+  <GuestStars>Martin Short|Chris Elliot|Rebecca Creskoff</GuestStars>
+  <IMDB_ID>tt2216757</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Lily asks for her father's help when she and Marshall decide to throw a housewarming party. Marshall's boss gets under Ted's skin and the two nearly come to blows, and Barney puts the moves on a wacky divorcée.</Overview>
+  <ProductionCode>7ALH15</ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>158</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>151</absolute_number>
+  <filename>episodes/75760/4254101.jpg</filename>
+  <lastupdated>1353843916</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4238933</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Drunk Train</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2012-02-13</FirstAired>
+  <GuestStars>Becki Newton|Kal Penn|Melissa Soso|Guy Nardulli|Nicole Zeoli|Lindsey Morgan|Nicole Shabtai|Johnny Giacalone|Rachel Bloom|Kim Hildago|Brandi Burkhardt</GuestStars>
+  <IMDB_ID>tt2216759</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Lily and Marshall invite Robin and Kevin on a Valentine's Day trip to Vermont. Kevin and Robin use the trip to talk about taking their relationship to the next level. Meanwhile, Barney realizes he has finally met his match.</Overview>
+  <ProductionCode>7ALH16</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>152</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Craig Gerard|Matthew Zinman</Writer>
+  <absolute_number>152</absolute_number>
+  <filename>episodes/75760/4238933.jpg</filename>
+  <lastupdated>1353843962</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4253057</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>No Pressure</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2012-02-20</FirstAired>
+  <GuestStars>Lyndsy Fonseca|David Henrie</GuestStars>
+  <IMDB_ID>tt2212411</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Robin breaks up with Kevin, Ted confesses his feelings to her. Meanwhile, Barney is on a mission to find something private of Marshall and Lily’s.</Overview>
+  <ProductionCode>7ALH17</ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>168</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>George Sloan</Writer>
+  <absolute_number>153</absolute_number>
+  <filename>episodes/75760/4253057.jpg</filename>
+  <lastupdated>1353843978</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4256950</id>
+  <Combined_episodenumber>18</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Karma</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired>2012-02-27</FirstAired>
+  <GuestStars>Becki Newton|Lyndsy Fonseca|David Henrie</GuestStars>
+  <IMDB_ID>tt2247489</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney continues his pursuit of Quinn. Ted has to deal with Robin's old room, while Robin gets a taste of suburban life from Marshall and Lily.</Overview>
+  <ProductionCode>7ALH18</ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>162</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Stephen Lloyd</Writer>
+  <absolute_number>154</absolute_number>
+  <filename>episodes/75760/4256950.jpg</filename>
+  <lastupdated>1353843997</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4272471</id>
+  <Combined_episodenumber>19</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Broath</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired>2012-03-19</FirstAired>
+  <GuestStars>Becki Newton|Ellen D. Williams</GuestStars>
+  <IMDB_ID>tt2265943</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The gang tries to break up Barney and Quinn after learning they plan on moving in together, leaving Robin and Ted to fight over who deserves to sublet her apartment.</Overview>
+  <ProductionCode>7ALH19</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>171</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>155</absolute_number>
+  <filename>episodes/75760/4272471.jpg</filename>
+  <lastupdated>1353844031</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4284540</id>
+  <Combined_episodenumber>20</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Trilogy Time</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired>2012-04-09</FirstAired>
+  <GuestStars>Becki Newton|Michael Gladis|Meghan Maureen McDonough|Gregory Michael</GuestStars>
+  <IMDB_ID>tt2336905</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ted, Marshall and Barney embark on another &quot;trilogy time&quot;, where they get together every three years to watch the &quot;Star Wars&quot; trilogy and envision what their lives will be like in another three years. Meanwhile Barney and Quinn move in together.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>149</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Kourtney Kang</Writer>
+  <absolute_number>156</absolute_number>
+  <filename>episodes/75760/4284540.jpg</filename>
+  <lastupdated>1353844053</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4284537</id>
+  <Combined_episodenumber>21</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Now We're Even!</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2012-04-16</FirstAired>
+  <GuestStars>Becki Newton|Alexis Denisof|Marshall Manesh|Eben Ham|Bryan Krasner</GuestStars>
+  <IMDB_ID>tt2346207</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Although Ted is happy with living alone at his new apartment, Barney tries to convince him about going out every night. Lily has a naughty dream about someone other then Marshall. Robin finally starts her stint as a news anchor at World Wide News.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>149</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Chuck Tatham</Writer>
+  <absolute_number>157</absolute_number>
+  <filename>episodes/75760/4284537.jpg</filename>
+  <lastupdated>1353844070</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4277264</id>
+  <Combined_episodenumber>22</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Good Crazy</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2012-04-30</FirstAired>
+  <GuestStars>Becki Newton|K Callan|Karissa Vacker|Bruce Gray|Todd Sandler|Casey Washington|Cristen Irene|Katy Stoll|Mike Nojun Park|Michael G. Coleman</GuestStars>
+  <IMDB_ID>tt2376741</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marshall panics when a baby shower indicates that the birth is close at hand and accidentally takes a road trip with Barney. Ted hallucinates seeing Robin while trying to get over her and decides to patch up their differences. Barney tries to talk Quinn out of being a stripper.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>152</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>158</absolute_number>
+  <filename>episodes/75760/4277264.jpg</filename>
+  <lastupdated>1353844083</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4292733</id>
+  <Combined_episodenumber>23</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Magician's Code (1)</EpisodeName>
+  <EpisodeNumber>23</EpisodeNumber>
+  <FirstAired>2012-05-14</FirstAired>
+  <GuestStars>Chris Elliot|Vicki Lewis|Caine Sinclair|Nikki Stanley|Paul Eliopoulos|Max Daniels|Francesca Capaldi|Ken Takemoto|Bobby C. King|Mike Grief|Katie Enright|Brenda Ballard|Elliot Goldwag|Vivian Smallwood|Natalie Padilla|Scott Workman</GuestStars>
+  <IMDB_ID>tt2376743</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Lily goes into labor, Ted and Robin distract her by telling her stories while Marshall hurries back from Atlantic City.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>144</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Jennifer Hendriks</Writer>
+  <absolute_number>159</absolute_number>
+  <filename>episodes/75760/4292733.jpg</filename>
+  <lastupdated>1359786955</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4292734</id>
+  <Combined_episodenumber>24</Combined_episodenumber>
+  <Combined_season>7</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Magician's Code (2)</EpisodeName>
+  <EpisodeNumber>24</EpisodeNumber>
+  <FirstAired>2012-05-14</FirstAired>
+  <GuestStars>Becki Newton|Frances Conroy|Renee Taylor|Rob Huebel|Lance Barber|Ed Alonzo|Ithamar Enriquez|Peter Gannon|Christopher Carroll|Kelly Connolly</GuestStars>
+  <IMDB_ID>tt2376745</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ted is conflicted when Victoria approaches him on her wedding day and asks him to elope. Meanwhile, Barney and Quinn are arrested by airport security while on the way to Hawaii when Barney refuses to open a box they are travelling with.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>58</RatingCount>
+  <SeasonNumber>7</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>160</absolute_number>
+  <filename>episodes/75760/4292734.jpg</filename>
+  <lastupdated>1359786971</lastupdated>
+  <seasonid>468478</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4357945</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Farhampton</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2012-09-24</FirstAired>
+  <GuestStars>Ashley Williams|Becki Newton|Thomas Lennon|Michael Trucco|Hal Havins|Colleen Smith|Judith Drake|Jennifer Birmingham|Jarrod Crawford</GuestStars>
+  <IMDB_ID>tt2252518</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney attempts to hide the fact that he and Robin used to date, but Quinn finds out when sleep-deprived Marshall and Lily accidentally blurt it out. Meanwhile, Ted forces Victoria to write a left-at-the-altar note to Klaus explaining why she ran out on their wedding.</Overview>
+  <ProductionCode>8alh01</ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>109</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>161</absolute_number>
+  <filename>episodes/75760/4357945.jpg</filename>
+  <lastupdated>1354088913</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4376683</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Pre-Nup</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2012-10-01</FirstAired>
+  <GuestStars>Ashley Williams|Becki Newton|Thomas Lennon|Michael Trucco|Bob Odenkirk|Suzie Plakson|Bill Fagerbakke|Blake Bertrand|Gibson Sjobek</GuestStars>
+  <IMDB_ID>tt2414774</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Barney designs an extensive pre-nup, the guys take note and propose their own relationship amendments to their significant others. Meanwhile, Quinn is outraged and draws up a pre-nup of her own, which causes friction between the sexes.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>105</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>162</absolute_number>
+  <filename>episodes/75760/4376683.jpg</filename>
+  <lastupdated>1350844406</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4376684</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Nannies</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2012-10-08</FirstAired>
+  <GuestStars>Ashley Williams|Chris Elliot|Michael Trucco|Jane Carr|Kim Shaw|Francesca Capaldi|Marie Pettit|Daisy Faith|Carol Herman|Melissa Christine|August Maturo|Ely Uettwiller</GuestStars>
+  <IMDB_ID>tt2428798</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Lily and Marshall have trouble finding a nanny, they learn it’s because of an elaborate scheme Barney came up with to meet girls. Meanwhile, Robin and Ted butt heads over who has a more serious relationship.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>99</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Chuck Tatham</Writer>
+  <absolute_number>163</absolute_number>
+  <filename>episodes/75760/4376684.jpg</filename>
+  <lastupdated>1350844309</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4381074</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Who Wants to Be a Godparent?</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2012-10-15</FirstAired>
+  <GuestStars>Ashley Williams|Michael Trucco|Ned Rolsma|August Maturo|Jakob Sarkissian|Nicole Limo|David Henrie|Lyndsy Fonseca</GuestStars>
+  <IMDB_ID>tt2428796</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Lily and Marshall can’t decide on godparents for Marvin, they put the gang to the test to see who would make the best one.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>103</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Matt Kuhn</Writer>
+  <absolute_number>164</absolute_number>
+  <filename>episodes/75760/4381074.jpg</filename>
+  <lastupdated>1354088878</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4387916</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Autumn of Break-Ups</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2012-11-05</FirstAired>
+  <GuestStars>Ashley Williams|Michael Trucco</GuestStars>
+  <IMDB_ID>tt2460610</IMDB_ID>
+  <Language>en</Language>
+  <Overview>As the season of break-ups continues, Ted and Victoria must choose the next step in their long and complicated relationship. Meanwhile, Robin worries about Barney when he chooses a dog to be his wingman.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>102</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Kourtney Kang</Writer>
+  <absolute_number>165</absolute_number>
+  <filename>episodes/75760/4387916.jpg</filename>
+  <lastupdated>1355650611</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4393010</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Splitsville</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2012-11-12</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2460618</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Robin is hesitant to break up with Nick, Barney takes matters into his own hands. Meanwhile, Lily and Marshall are desperate for some private time.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>106</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Stephen Lloyd</Writer>
+  <absolute_number>166</absolute_number>
+  <filename>episodes/75760/4393010.jpg</filename>
+  <lastupdated>1355650753</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4410873</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Stamp Tramp</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2012-11-19</FirstAired>
+  <GuestStars>Joe Manganiello|Joe Lo Truglio|Jared Gertner|Joey D'Auria|Brian Shortall|Brendan Hunt|Raymond Lee</GuestStars>
+  <IMDB_ID>tt2460620</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marshall recommends his old law school classmate Brad for a job at his firm, but the interview goes awry, leaving Marshall to do damage control with his boss. Meanwhile, Robin helps negotiate Barney’s return to the strip club circuit.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>93</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Tami Sagher</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4410873.jpg</filename>
+  <lastupdated>1355650815</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4415788</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Twelve Horny Women</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2012-11-26</FirstAired>
+  <GuestStars>Joe Manganiello|Joe Lo Truglio|David Burtka</GuestStars>
+  <IMDB_ID>tt2445770</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marshall takes on his old friend/new nemesis Brad in the biggest case of his career. Meanwhile, the gang reminisces about their own run-ins with the law, leading to a debate over who was the biggest delinquent as a teenager.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>90</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Eric Falconer|Eric Romanski</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4415788.jpg</filename>
+  <lastupdated>1355650996</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4422621</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Lobster Crawl</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2012-12-03</FirstAired>
+  <GuestStars>Cornelius Peter|Chelan Simmons|Ellwn d. Williams</GuestStars>
+  <IMDB_ID>tt2466704</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Robin is determined to get Barney back no matter what it takes. Meanwhile, Ted fills in as Marvin’s Nanny, leading Marshall and Lily to realize that Ted is using baby Marvin to replace his other baby, the GNB building.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>89</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Barbara Adler</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4422621.jpg</filename>
+  <lastupdated>1355651885</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4422622</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Over-Correction</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2012-12-10</FirstAired>
+  <GuestStars>Becki Newton</GuestStars>
+  <IMDB_ID>tt2547538</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney's developing relationship with Patrice leaves Robin questioning his motives. Marshall's widowed mother gets back into the dating pool, but he thinks she may be swimming with a shark.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>94</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Craig Gerard|Matthew Zinman</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4422622.jpg</filename>
+  <lastupdated>1355855539</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4440720</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Final Page (1)</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2012-12-17</FirstAired>
+  <GuestStars>Alexis Denisof|Peter Gallagher|Seth Green|Ellen D. Williams</GuestStars>
+  <IMDB_ID>tt2556002</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Robin takes steps to have Patrice fired from WWN, while Marshall puts a jinx on Barney. Later, Ted invites his architecture professor to the dedication of the GNB building, and Marshall and Lily bump into an oddball acquaintance from college.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>82</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4440720.jpg</filename>
+  <lastupdated>1355855649</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4440721</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Final Page (2)</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2012-12-17</FirstAired>
+  <GuestStars>Chris Elliott</GuestStars>
+  <IMDB_ID>tt2556008</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Christmas approaches and Ted wrestles with whether to tell Robin about Barney's intentions involving Patrice, while Marshall and Lily get an early Yule gift, a night away from Marvin, but a case of separation anxiety strikes and threatens to ruin the evening.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.7</Rating>
+  <RatingCount>22</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4440721.jpg</filename>
+  <lastupdated>1355855805</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4443834</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Band or DJ?</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2013-01-14</FirstAired>
+  <GuestStars>Ray Wise</GuestStars>
+  <IMDB_ID>tt2569148</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Robin learns that Barney never asked her father’s permission before proposing, she insists that he seek his approval before announcing their engagement. Meanwhile, Ted keeps his feelings concealed by throwing himself into planning their wedding.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>63</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4443834.jpg</filename>
+  <lastupdated>1359569325</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4443835</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Ring Up</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2013-01-21</FirstAired>
+  <GuestStars>Ashley Benson</GuestStars>
+  <IMDB_ID>tt2630114</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney begs Ted to continue seeing his much younger, much wilder girlfriend, even though Ted has nothing in common with her. Meanwhile, Robin must adjust to the power of the bling.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>69</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Jennifer Hendriks</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/75760/4443835.jpg</filename>
+  <lastupdated>1359569446</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4467901</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>P.S. I Love You</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2013-02-04</FirstAired>
+  <GuestStars>Paul Shaffer|Alex Trebek|Abby Elliott|James Van Der Beek|Alan Thicke|Jason Priestley|Dave Thomas|Geddy Lee|Steven Page|Dave Coulier|Luc Robitaille|K.D. Lang|Craig Thomas|Corey Krueger</GuestStars>
+  <IMDB_ID>tt2654452</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Barney uncovers the lost episode of Robin’s “Underneath the Tunes” as Robin Sparkles. Meanwhile, Marshall and Lily are concerned that Ted’s new girlfriend is a stalker.</Overview>
+  <ProductionCode>8ALH15</ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>18</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>175</absolute_number>
+  <filename>episodes/75760/4467901.jpg</filename>
+  <lastupdated>1360081820</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4473865</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Bad Crazy</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2013-02-11</FirstAired>
+  <GuestStars>Abby Elliot|Reatha Grey</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ted is reluctant to break up with his crazy girlfriend Jeanette. Meanwhile, Robin becomes attached to Marvin after finally holding him for the first time.</Overview>
+  <ProductionCode>8ALH16</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer>Carter Bays|Craig Thomas</Writer>
+  <absolute_number>176</absolute_number>
+  <filename></filename>
+  <lastupdated>1359414324</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+<Episode>
+  <id>4478866</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>8</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Pamela Fryman</Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Weekend at Barney's</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2013-02-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2668726</IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>8</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1359974564</lastupdated>
+  <seasonid>496187</seasonid>
+  <seriesid>75760</seriesid>
+</Episode>
+</Data>

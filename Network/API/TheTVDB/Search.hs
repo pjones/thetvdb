@@ -10,6 +10,7 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
+
 module Network.API.TheTVDB.Search (SearchTerm, search, searchErr) where
 import Network.API.TheTVDB.Types.API
 import Network.API.TheTVDB.Types.Series (Series(..))
@@ -39,9 +40,11 @@ parse = do doc <- X.sinkDoc X.def
 
 parseSeries :: Cursor -> Series
 parseSeries c = Series
-  { seriesID       = read $ T.unpack (extract "id")
-  , seriesIMDB     = extract "IMDB_ID"
-  , seriesName     = extract "SeriesName"
-  , seriesOverview = extract "Overview"
+  { seriesID        = read $ T.unpack (extract "id")
+  , seriesIMDB      = extract "IMDB_ID"
+  , seriesName      = extract "SeriesName"
+  , seriesOverview  = extract "Overview"
+  , seriesPosterURL = Nothing
+  , seasonList      = []
   }
   where extract n = T.concat $ c $/ element n &// content

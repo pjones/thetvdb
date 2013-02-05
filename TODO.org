@@ -1,0 +1,13 @@
+#+title: TheTVDB Haskell Library To-Do List
+
+* Things to Fix Before Release
+** TODO Parse episode dates
+** TODO Deal with missing season numbers (set to 0)
+** TODO Write an example application
+** TODO Remove XML parsing duplication
+** TODO Use a large timeout with http-conduit
+** TODO Catch HTTP and XML exceptions
+** TODO Support fetching ZIP files from the API
+** TODO Improve documentation
+* Things to Do Sometime Later
+** TODO Cache data and update them instead of full fetches

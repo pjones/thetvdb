@@ -25,10 +25,14 @@ library
   exposed-modules: Network.API.TheTVDB
                    Network.API.TheTVDB.Util
   other-modules:   Network.API.TheTVDB.Search
+                   Network.API.TheTVDB.Fetch
                    Network.API.TheTVDB.HTTP
                    Network.API.TheTVDB.Types.API
                    Network.API.TheTVDB.Types.Context
-                   
+                   Network.API.TheTVDB.Types.Series
+                   Network.API.TheTVDB.Types.Season
+                   Network.API.TheTVDB.Types.Episode
+
   build-depends: base <5
                , conduit == 0.5.*
                , directory == 1.1.*
@@ -46,8 +50,10 @@ library
                , resourcet >= 0.3 && < 0.5
                , xml-conduit ==1.0.*
                , xml-types == 0.3.*
-               
-  ghc-options: -Wall               
+               , time >= 1.2 && < 1.5
+               , containers == 0.4.*
+
+  ghc-options: -Wall
 
 -- executable tmdb
 --   main-is: example/Main.hs
@@ -66,7 +72,7 @@ library
 test-suite test
   type: exitcode-stdio-1.0
   main-is: Test/Main.hs
-  ghc-options: -Wall               
+  ghc-options: -Wall
   build-depends: base
                , HUnit
                , conduit
@@ -75,6 +81,10 @@ test-suite test
                , http-types
                , xml-conduit
                , text
+               , time
+               , directory
+               , http-conduit
+               , containers
 
 source-repository head
   type: git

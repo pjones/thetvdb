@@ -8,7 +8,9 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
-module Network.API.TheTVDB.Types.Context (Context(..), defaultContext) where
+module Network.API.TheTVDB.Types.Context
+       (Context(..), defaultContext, posterBaseURL) where
+
 import Network.API.TheTVDB.HTTP
 import Network.API.TheTVDB.Types.API
 import Network.HTTP.Types (renderQuery, simpleQueryToQuery)
@@ -62,4 +64,4 @@ makeURL c q = apiBaseURL ++ path q (apiKey c) (apiLang c) ++ qStr
 
 -- Use the HTTP module to make a remote HTTP GET call for the API.
 fetchC :: Query query => Context -> query -> Disposition r -> IO (Result r)
-fetchC c q disposition = get (makeURL c q) (httpManager c) disposition
+fetchC c q = get (makeURL c q) (httpManager c)
