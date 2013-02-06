@@ -26,7 +26,6 @@ library
                    Network.API.TheTVDB.Util
   other-modules:   Network.API.TheTVDB.Search
                    Network.API.TheTVDB.Fetch
-                   Network.API.TheTVDB.HTTP
                    Network.API.TheTVDB.XML
                    Network.API.TheTVDB.Types.API
                    Network.API.TheTVDB.Types.Context
