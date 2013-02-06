@@ -23,18 +23,21 @@ import qualified Data.Map as M
 import qualified Data.Text as T
 import qualified Network.API.TheTVDB.Types.API as API
 import qualified Text.XML as X
+import Network.API.TheTVDB.XML (content, convert, nullWrap, maybeDate)
+import Control.Monad (liftM)
 
 import Network.API.TheTVDB.Types.API
   (API(..), Query(..), Result, UniqueID, Disposition)
 
 import Text.XML.Cursor
-  (Cursor, fromDocument, element, content, parent, ($|), ($/), (&/), (&//))
+  (Cursor, fromDocument, element, parent, ($|), ($/), (&/))
 
 newtype Fetch = Fetch {fetchSeriesID :: UniqueID}
 
 instance Query Fetch where
-  path q key lang = "/api/" ++ key ++ "/series/" ++ show (fetchSeriesID q)
-                    ++ "/all/" ++ lang ++ ".xml"
+  path q key lang = T.concat ["/api/", T.pack key, "/series/",
+                              T.pack . show $ fetchSeriesID q,
+                              "/all/", lang, ".xml"]
   params _ = []
 
 fetch :: (API api) => api -> UniqueID -> IO Series
@@ -54,14 +57,13 @@ parse = do doc <- X.sinkDoc X.def
 
 parseSeries :: Cursor -> Series
 parseSeries c = Series
-  { seriesID        = read $ T.unpack (extract "id")
-  , seriesIMDB      = extract "IMDB_ID"
-  , seriesName      = extract "SeriesName"
-  , seriesOverview  = extract "Overview"
-  , seriesPosterURL = Just $ T.concat [T.pack posterBaseURL, extract "poster"]
+  { seriesID        = convert c 0 "id"
+  , seriesIMDB      = content c "IMDB_ID"
+  , seriesName      = content c "SeriesName"
+  , seriesOverview  = content c "Overview"
+  , seriesPosterURL = liftM (T.append posterBaseURL) $ nullWrap c "poster"
   , seasonList      = parseSeasons c
   }
-  where extract n = T.concat $ c $/ element n &// content
 
 parseSeasons :: Cursor -> [Season]
 parseSeasons c = M.elems $ foldr collapse M.empty episodes
@@ -73,14 +75,13 @@ parseSeasons c = M.elems $ foldr collapse M.empty episodes
 
 parseEpisode :: Cursor -> (Season, Episode)
 parseEpisode c = (season, episode)
-  where extract n = T.concat $ c $/ element n &// content
-        season  = Season { seasonID = read $ T.unpack (extract "seasonid")
-                         , seasonNumber = read $ T.unpack (extract "SeasonNumber")
-                         , episodeList = []
-                         }
-        episode = Episode { episodeID = read $ T.unpack (extract "id")
-                          , episodeNumber   = read $ T.unpack (extract "EpisodeNumber")
-                          , episodeName     = extract "EpisodeName"
-                          , episodeOverview = extract "Overview"
-                          , episodeDate     = Nothing
+  where season = Season   { seasonID        = convert c 0 "seasonid"
+                          , seasonNumber    = convert c 0 "SeasonNumber"
+                          , episodeList     = [] -- filled in later
+                          }
+        episode = Episode { episodeID       = convert   c 0 "id"
+                          , episodeNumber   = convert   c 0 "EpisodeNumber"
+                          , episodeName     = content   c   "EpisodeName"
+                          , episodeOverview = content   c   "Overview"
+                          , episodeDate     = maybeDate c   "FirstAired"
                           }

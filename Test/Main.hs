@@ -16,14 +16,17 @@ import Control.Monad (liftM, when)
 import Control.Monad.Trans.Resource (runResourceT)
 import Data.Conduit (($$))
 import Data.Conduit.Binary (sourceFile)
-import Network.API.TheTVDB.Search (searchErr)
+import Data.Maybe (fromMaybe)
 import Network.API.TheTVDB.Fetch (fetchErr)
+import Network.API.TheTVDB.Search (searchErr)
 import Network.API.TheTVDB.Types.API (API(..))
-import Network.API.TheTVDB.Types.Series (Series(..))
 import Network.API.TheTVDB.Types.Season (Season(..))
+import Network.API.TheTVDB.Types.Series (Series(..))
+import Network.API.TheTVDB.Types.Episode (Episode(..))
 import System.Exit (exitFailure)
+import Data.Time (fromGregorian)
 import Test.HUnit (Test(..), Counts(..), runTestTT,
-                   assertFailure, assertEqual, assertBool)
+                   assertFailure, assertEqual)
 
 -- ============================================================================
 -- Don't go to the network for requests, load XML files from the disk.
@@ -53,15 +56,20 @@ goodFetchTest = TestCase $ do
     Left  e -> assertFailure $ show e
     Right s -> do
       assertEqual "series name" "How I Met Your Mother" $ seriesName s
+      assertEqual "poster" poster $ fromMaybe "" $ seriesPosterURL s
       assertEqual "series ID" 75760 $ seriesID s
       assertEqual "number of seasons" 9 $ length (seasonList s)
       assertEqual "first season ID" 23219 $ seasonID (head $ seasonList s)
       assertEqual "last season ID" 496187 $ seasonID (last $ seasonList s)
       mapM_ checkCount (zippedEpisodes s)
+      assertEqual "first episode date" expectDate $ episodeDate (firstEp s)
   where checkCount (e, a) = assertEqual "episode count" e a
         zippedEpisodes s = zip expectEpisodeCounts (actualEpisodeCounts s)
         actualEpisodeCounts s = map (length . episodeList) (seasonList s)
         expectEpisodeCounts = [10, 22, 22, 20, 24, 24, 24, 24, 17]
+        poster = "http://www.thetvdb.com/banners/posters/75760-12.jpg"
+        firstEp = head . episodeList . head . seasonList
+        expectDate = Just $ fromGregorian 2006 11 20
 
 -- ============================================================================
 -- Why can't this be automatic?

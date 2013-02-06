@@ -15,12 +15,13 @@ import Network.API.TheTVDB.Types.API
 import qualified Data.Conduit as C
 import qualified Network.HTTP.Conduit as H
 import qualified Network.HTTP.Types.Status as HS
+import qualified Data.Text as T
 
 -- Perform an HTTP GET and send the resulting body to the sink given
 -- in the 'Disposition' argument.
 get :: URL -> Maybe H.Manager -> Disposition r -> IO (Result r)
 get url manager pipe =
-  do request <- H.parseUrl url
+  do request <- H.parseUrl $ T.unpack url
      runWithManager manager $ \manager' -> do
        response <- H.http request manager'
        if HS.statusIsSuccessful $ H.responseStatus response

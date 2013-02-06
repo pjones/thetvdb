@@ -18,12 +18,14 @@ module Network.API.TheTVDB.Types.API
        , Path
        , Query(..)
        , Disposition
+       , Language
        ) where
 
 import qualified Network.HTTP.Types as H
 import Control.Monad.Trans.Resource (ResourceT)
 import qualified Data.ByteString as S
 import qualified Data.Conduit as C
+import qualified Data.Text as T
 
 -- | Type synonym for representing unique IDs.
 type UniqueID = Integer -- TOOD: should this be somewhere else?
@@ -32,7 +34,7 @@ type UniqueID = Integer -- TOOD: should this be somewhere else?
 type Key = String
 
 -- | FIXME:
-type Language = String
+type Language = T.Text
 
 -- | A type to represent possible errors returned from the API.
 data Error
@@ -49,8 +51,8 @@ instance Show Error where
 
 -- FIXME:
 type Result = Either Error
-type URL = String
-type Path = String
+type URL = T.Text
+type Path = T.Text
 type Disposition r = C.Sink S.ByteString (ResourceT IO) r
 
 -- | A member of the Query typeclass must define functions for
