@@ -10,14 +10,24 @@ the LICENSE file.
 -}
 module Network.API.TheTVDB
        ( Key
+       , loadKeyMaybe
+       , loadKey
        , Context(..)
        , defaultContext
        , Series(..)
+       , Season(..)
+       , Episode(..)
        , searchErr
        , search
+       , fetchErr
+       , fetch
        ) where
 
-import Network.API.TheTVDB.Types.Context
-import Network.API.TheTVDB.Types.API
-import Network.API.TheTVDB.Types.Series
+import Network.API.TheTVDB.Fetch
 import Network.API.TheTVDB.Search
+import Network.API.TheTVDB.Types.API (Key)
+import Network.API.TheTVDB.Types.Context
+import Network.API.TheTVDB.Types.Episode
+import Network.API.TheTVDB.Types.Season
+import Network.API.TheTVDB.Types.Series
+import Network.API.TheTVDB.Util

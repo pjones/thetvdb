@@ -28,7 +28,7 @@ import qualified Data.Conduit as C
 import qualified Data.Text as T
 
 -- | Type synonym for representing unique IDs.
-type UniqueID = Integer -- TOOD: should this be somewhere else?
+type UniqueID = Integer
 
 -- | Type synonym for representing an API key issued by TheTVDB.
 type Key = String
@@ -49,20 +49,22 @@ instance Show Error where
   show (ParseError e) = msg ++ e
     where msg = "TheTVDB.com responded with an invalid document: "
 
--- FIXME:
+-- | FIXME:
 type Result = Either Error
+
+-- Internal types
 type URL = T.Text
 type Path = T.Text
 type Disposition r = C.Sink S.ByteString (ResourceT IO) r
 
--- | A member of the Query typeclass must define functions for
+-- A member of the Query typeclass must define functions for
 -- generating the path component of a URL and the query parameters.
 class Query q where
   path        :: q -> Key -> Language -> Path
   params      :: q -> H.SimpleQuery
 
--- | A member of the API typeclass must define functions for
--- performing remote API requests.
+-- A member of the API typeclass must define functions for performing
+-- remote API requests.
 class API api where
   -- | Perform an API query and return either an error or the body.
   fetch :: Query query => api -> query -> Disposition r -> IO (Result r)
