@@ -15,7 +15,9 @@ module Network.API.TheTVDB.Zipper
        , find
        , series
        , season
+       , season'
        , episode
+       , episode'
        , episodes
        , prevS
        , nextS
@@ -65,15 +67,27 @@ find s sn en = do xs <- findSeason s sn
 series :: Zipper -> Series
 series (Zipper s _ _) = s
 
--- | The currently focused 'Season' or 'Nothing'.
-season :: Zipper -> Maybe Season
-season (Zipper _ (x:_, _) _) = Just x
-season _                     = Nothing
+-- | The currently focused 'Season'.  Fails if given an invalid
+-- 'Zipper'.
+season :: Zipper -> Season
+season (Zipper _ (x:_, _) _) = x
+season _                     = error "Zipper.season: invalid zipper"
 
--- | The currently focused 'Episode' or 'Nothing'.
-episode :: Zipper -> Maybe Episode
-episode (Zipper _ _ (x:_, _)) = Just x
-episode _                     = Nothing
+-- | Safe version of 'season'.
+season' :: Zipper -> Maybe Season
+season' (Zipper _ (x:_, _) _) = Just x
+season' _                     = Nothing
+
+-- | The currently focused 'Episode'.  Fails if given an invalid
+-- 'Zipper'.
+episode :: Zipper -> Episode
+episode (Zipper _ _ (x:_, _)) = x
+episode _                     = error "Zipper.episode: invalid zipper"
+
+-- | Safe version of 'episode'.
+episode' :: Zipper -> Maybe Episode
+episode' (Zipper _ _ (x:_, _)) = Just x
+episode' _                     = Nothing
 
 -- | Create a list of 'Zipper's that represent the currently focused
 -- episode and the episodes following the focused episode.

@@ -90,7 +90,7 @@ zipperTest = TestCase $ do
   case zipper >>= Z.nextE >>= Z.nextE of
     Nothing -> assertBool "quiet a warning" True
     Just z  -> assertFailure $ "Z.next didn't fail: eid " ++ show (eid z)
-  where eid z = maybe 0 episodeID $ Z.episode z
+  where eid z = maybe 0 episodeID $ Z.episode' z
 
 -- ============================================================================
 -- Why can't this be automatic?
