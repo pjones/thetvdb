@@ -8,6 +8,7 @@ propagated, or distributed except according to the terms contained in
 the LICENSE file.
 
 -}
+
 module Network.API.TheTVDB.Types.Series (Series(..)) where
 import Data.Text (Text())
 import Network.API.TheTVDB.Types.API (UniqueID)

@@ -24,6 +24,7 @@ extra-source-files:
 library
   exposed-modules: Network.API.TheTVDB
                    Network.API.TheTVDB.Util
+                   Network.API.TheTVDB.Zipper
   other-modules:   Network.API.TheTVDB.Search
                    Network.API.TheTVDB.Fetch
                    Network.API.TheTVDB.XML

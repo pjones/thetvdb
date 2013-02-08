@@ -9,12 +9,15 @@ the LICENSE file.
 
 -}
 
-module Network.API.TheTVDB.Types.Season (Season(..)) where
+module Network.API.TheTVDB.Types.Season (Season(..), SeasonID, SeasonNum) where
 import Network.API.TheTVDB.Types.API (UniqueID)
 import Network.API.TheTVDB.Types.Episode (Episode)
 
+type SeasonID  = UniqueID
+type SeasonNum = UniqueID
+
 data Season = Season
-  { seasonID     :: UniqueID
-  , seasonNumber :: UniqueID
+  { seasonID     :: SeasonID
+  , seasonNumber :: SeasonNum
   , episodeList  :: [Episode]
   } deriving (Eq, Show)

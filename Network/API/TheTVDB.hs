@@ -14,6 +14,7 @@ module Network.API.TheTVDB
        , loadKey
        , Context(..)
        , defaultContext
+       , UniqueID
        , Series(..)
        , Season(..)
        , Episode(..)
@@ -25,7 +26,7 @@ module Network.API.TheTVDB
 
 import Network.API.TheTVDB.Fetch
 import Network.API.TheTVDB.Search
-import Network.API.TheTVDB.Types.API (Key)
+import Network.API.TheTVDB.Types.API (Key, UniqueID)
 import Network.API.TheTVDB.Types.Context
 import Network.API.TheTVDB.Types.Episode
 import Network.API.TheTVDB.Types.Season

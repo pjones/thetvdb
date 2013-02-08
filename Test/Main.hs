@@ -25,8 +25,11 @@ import Network.API.TheTVDB.Types.Series (Series(..))
 import Network.API.TheTVDB.Types.Episode (Episode(..))
 import System.Exit (exitFailure)
 import Data.Time (fromGregorian)
+import qualified Network.API.TheTVDB.Zipper as Z
+import qualified Network.API.TheTVDB.Fetch as F
+
 import Test.HUnit (Test(..), Counts(..), runTestTT,
-                   assertFailure, assertEqual)
+                   assertFailure, assertEqual, assertBool)
 
 -- ============================================================================
 -- Don't go to the network for requests, load XML files from the disk.
@@ -72,11 +75,30 @@ goodFetchTest = TestCase $ do
         expectDate = Just $ fromGregorian 2006 11 20
 
 -- ============================================================================
+zipperTest :: Test
+zipperTest = TestCase $ do
+  series <- F.fetch (TestXML "Test/series.xml") 0
+  let zipper = Z.find series 8 16
+  case zipper of
+    Nothing -> assertFailure "expected Z.find to return something"
+    Just z  -> do
+      assertEqual "eid-1" 4473865 $ eid z
+      assertEqual "Z.episodes" 2 $ length (Z.episodes z)
+  case zipper >>= Z.nextE of
+    Nothing -> assertFailure "Z.next should have found something"
+    Just z  -> assertEqual "eid-2" 4478866 $ eid z
+  case zipper >>= Z.nextE >>= Z.nextE of
+    Nothing -> assertBool "quiet a warning" True
+    Just z  -> assertFailure $ "Z.next didn't fail: eid " ++ show (eid z)
+  where eid z = maybe 0 episodeID $ Z.episode z
+
+-- ============================================================================
 -- Why can't this be automatic?
 unitTests :: Test
 unitTests = TestList
   [ TestLabel "Can parse search results" goodSearchTest
   , TestLabel "Can parse series data" goodFetchTest
+  , TestLabel "Zipper tests" zipperTest
   ]
 
 -- ============================================================================

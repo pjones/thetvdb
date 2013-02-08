@@ -9,14 +9,17 @@ the LICENSE file.
 
 -}
 
-module Network.API.TheTVDB.Types.Episode (Episode(..)) where
+module Network.API.TheTVDB.Types.Episode (Episode(..), EpisodeID, EpisodeNum) where
 import Data.Text (Text)
 import Data.Time (Day(..))
 import Network.API.TheTVDB.Types.API (UniqueID)
 
+type EpisodeID = UniqueID
+type EpisodeNum = UniqueID
+
 data Episode = Episode
-  { episodeID       :: UniqueID
-  , episodeNumber   :: UniqueID
+  { episodeID       :: EpisodeID
+  , episodeNumber   :: EpisodeNum
   , episodeName     :: Text
   , episodeOverview :: Text
   , episodeDate     :: Maybe Day
