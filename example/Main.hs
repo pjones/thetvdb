@@ -45,12 +45,14 @@ main = do args <- getArgs
             ["key"]          -> putStrLn key
             ["search", term] -> search ctx term >>= mapM_ putSeriesSimple
             ["fetch", sid]   -> fetch ctx (read sid) >>= putSeriesDetailed
+            ["dump", sid]    -> fetch ctx (read sid) >>= print
             _                -> putStrLn usage >> exitFailure
   where missingKey = fail "failed to load your API key"
         usage = "Usage: tvdb {search QUERY|fetch ID|key}\n\n" ++
                 "Description:\n" ++
                 "       search: find a series on TheTVDB\n" ++
                 "        fetch: retrieve info on a series\n" ++
+                "         dump: print data structure\n" ++
                 "          key: show your API key\n\n" ++
                 "Example:\n" ++
                 "       tvdb search \"how I met your mother\"\n" ++

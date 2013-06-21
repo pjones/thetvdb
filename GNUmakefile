@@ -3,13 +3,12 @@
 
 ################################################################################
 all:
-	cabal configure && cabal build
+	cabal-dev install
 
 ################################################################################
 clean:
-	cabal clean
+	cabal-dev clean
 
 ################################################################################
 test:
-	cabal configure --enable-tests && \
-	  cabal build && cabal test
+	cabal-dev install --enable-tests
